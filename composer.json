@@ -1,0 +1,27 @@
+{
+    "name": "enmanuelmartins/bienesraices_fin",
+    "description": "Creando un proyecto con POO",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Enmanuelmartins\\BienesraicesFin\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Enmanuel Martins",
+            "email": "eel2000martins@hotmail.com"
+        }
+    ],
+    "require": {
+        "intervention/image": "^2.7",
+        "phpmailer/phpmailer": "^6.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Model\\" : "./models",
+            "MVC\\" : "./",
+            "Controllers\\" : "./controllers"
+        }
+    }
+}
